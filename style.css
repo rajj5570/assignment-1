@@ -181,16 +181,13 @@
   font-weight: 600;
   text-transform: capitalize;
 }
-.join-container > h3{
+.join-container > h3 {
   margin-block-start: 20px;
   margin-block-end: 10px;
-
 }
-.join-container > button{
+.join-container > button {
   margin-block-start: 50px;
-
 }
-
 
 .join-info {
   color: #070211;
@@ -214,7 +211,7 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-.join-button:hover{
+.join-button:hover {
   background: linear-gradient(
     130deg,
     rgba(228, 5, 191, 0.466) 0%,
@@ -224,5 +221,71 @@
 /* join description section style stop */
 
 /* best offer section style start */
+.best-offer {
+  margin: 100px auto;
+  width: 1120px;
+  height: 510px;
+  border-radius: 16px;
+}
+.best-offer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.colunm1{
+  width: 30%;
+}
+.colunm1 > h6 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.colunm1 > h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.colunm1 > p {
+  width: 335px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+.colunm2{
+  width: 40%;
+}
+.colunm2 > .border{
+  width: 250px;
+height: 250px;
+flex-shrink: 0;
+border-radius: 250px;
+background: url('./resources/Ellipse\ 1.png'), rgb(211, 211, 211) -91.279px 0px / 150.038% 100% no-repeat;
 
+}
+.colunm2 > #border{
+  width: 325px;
+height: 325px;
+flex-shrink: 0;
+  border-radius: 325px;
+border: 12px solid #F00;
+}
+.colunm3 {
+ width: 30%;
+}
+.colunm3 > h3{
+  color: #F00;
+font-size: 48px;
+font-weight: 700;
+}
+.colunm3 > p{
+  width: 235px;
+  color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+}
+.colunm3 > img {
+  width: 120px;
+height: 120px;
+flex-shrink: 0;
+}
 /* best offer section style stop */
