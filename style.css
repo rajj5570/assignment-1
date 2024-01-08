@@ -294,7 +294,6 @@
 .holiday-section {
   margin: 100px auto;
   width: 1120px;
-  height: 510px;
 }
 .holiday-container{
   display: flex;
@@ -330,27 +329,92 @@
 .holiday-image-container{
   width: 100%;
   position: relative;
+  margin-block-start: -110px;
 }
 .holiday-image-1 {
   position: absolute;
-  top: 130px;
-  left: 8px;
+  top: 248px;
+  left: 80px;
   z-index: 1;
+  width: 480px;
+  height: 460px;
 }
 .holiday-image-2{
   position: absolute;
+  width: 100%;
   top: 550px;
   z-index: 0;
 }
-.holiday-image-3{
+.holiday-image-3 {
   position: absolute;
-  left: 892px;
-  top: 116px;
+  left: 790px;
+  top: 200px;
+  width: 330px;
+  height: 350px;
 }
 
 .holiday-image-4 {
   position: absolute;
-  right: 90px;
-  top: 205px;
+  right: 235px;
+  top: 310px;
+  width: 190px;
+  height: 190px;
 }
 /* holiday section style stop */
+
+
+/* portfolio section style start */
+.portfolio-section{
+  margin: 600px auto;
+  width: 1120px;
+
+}
+.portfolio-heading{
+  color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+.portfolio-title{
+  color: #070211;
+font-size: 48px;
+font-weight: 900;
+}
+.portfolio-description{
+  width: 760px;
+  color: rgba(7, 2, 17, 0.60);
+font-size: 20px;;
+font-weight: 400;
+}
+.portfolio-image-container{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+}
+.container-1{
+  display: flex;
+  justify-content: space-around;
+}
+.container-1 > img{
+width: 360px;
+height: 380px;
+cursor: pointer;
+}
+.container-2{
+display: flex;
+justify-content: space-around;
+}
+.container-2 > img{
+  width: 360px;
+height: 380px;
+cursor: pointer;
+}
+.portfolio-image-container  img:hover{
+  border-radius: 16px;
+  background: linear-gradient(
+    130deg,
+    rgba(228, 5, 191, 0.466) 0%,
+    rgba(102, 5, 180, 0.568) 100%
+  );
+  z-index: 1;
+}
+/* portfolio section style stop */
