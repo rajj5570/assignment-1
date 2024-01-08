@@ -56,8 +56,6 @@
 .offer-sec-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  column-gap: -10px;
 }
 .offer-title {
   color: #f00;
@@ -141,14 +139,86 @@
   border: 0;
   cursor: pointer;
 }
-.party-button:hover{
-    background:linear-gradient(90deg, rgba(7, 0, 0, 0) 0%, rgb(255, 166, 0) 100%);
+.party-button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(7, 0, 0, 0) 0%,
+    rgb(255, 166, 0) 100%
+  );
 }
-.party-icon{
-    height: 80%;
-    position: absolute;
-    top: 40px;
-    right: 95px;
+.party-icon {
+  height: 80%;
+  position: absolute;
+  top: 40px;
+  right: 95px;
 }
 
 /* party banner section style end */
+
+/* join description section style start */
+.join-description {
+  margin: 100px auto;
+  width: 1120px;
+  height: 510px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+}
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+  justify-content: space-evenly;
+}
+.join-container .join-info > span {
+  color: #f00;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.join-container > h3{
+  margin-block-start: 20px;
+  margin-block-end: 10px;
+
+}
+.join-container > button{
+  margin-block-start: 50px;
+
+}
+
+
+.join-info {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.join-button {
+  border-radius: 8px;
+  border: none;
+  background: #f00;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.join-button:hover{
+  background: linear-gradient(
+    130deg,
+    rgba(228, 5, 191, 0.466) 0%,
+    rgba(102, 5, 180, 0.568) 100%
+  );
+}
+/* join description section style stop */
