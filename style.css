@@ -521,7 +521,11 @@ font-weight: 500;
 .social-sites{
 display: flex;
 justify-content: center;
-margin: 20px auto;
+margin: 15px auto;
+}
+.social-sites > img{
+  margin: auto 20px;
+  cursor: pointer;
 }
 .copyright-container{
   display: flex;
