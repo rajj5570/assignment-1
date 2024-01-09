@@ -232,7 +232,7 @@
   justify-content: space-between;
 }
 .colunm1 {
-  width: 30%;
+  width: 38%;
 }
 .colunm1 > h6 {
   color: #f00;
@@ -405,6 +405,7 @@ right: 5%;
   width: 360px;
   height: 380px;
   cursor: pointer;
+  transition: 250ms transform ease-in-out;
 }
 .container-2 {
   display: flex;
