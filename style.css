@@ -479,6 +479,7 @@ font-weight: 400;
   height: 60px;
   padding-left: 0;
   border: none;
+  margin-left: -5px;
   border-radius: 0px 50px 50px 0px;
 background: #F00;
 color: #FFF;
